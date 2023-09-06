@@ -1,0 +1,15 @@
+*{
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+
+}
+
+
+body{
+      background-image: url(accets/istockphoto-1350052145-612x612.jpg);
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      background-repeat: no-repeat;
+}
