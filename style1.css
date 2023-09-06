@@ -7,9 +7,41 @@
 
 
 body{
-      background-image: url(accets/istockphoto-1350052145-612x612.jpg);
+      background-image: url(accets/unnamed.png);
       height: 100%;
       width: 100%;
       object-fit: cover;
-      background-repeat: no-repeat;
+      /* background-repeat: no-repeat; */
+      text-align: center;
+}
+h1{
+      padding: 50px;
+      font-size: 30px;
+      font-weight: 800;
+      font-style: italic;
+}
+img{
+    align-items: center;
+}
+
+p{
+      text-align: center;
+      font-size: 30px;
+      font-weight: 800;
+}
+
+.center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+}
+
+button{
+      margin: 70px;
+      padding: 20px 10px 20px 10px;
+      padding: 10px;
+      background-color: cadetblue;
+      color: blueviolet;
+
 }
