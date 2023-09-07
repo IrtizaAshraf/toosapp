@@ -7,18 +7,21 @@
 
 
 body{
-      background-image: url(accets/unnamed.png);
+      background-image: url(accets/background\ 2.avif);
       height: 100%;
       width: 100%;
       object-fit: cover;
-      /* background-repeat: no-repeat; */
+      background-repeat: no-repeat;
       text-align: center;
+      background-size: cover;
+      
 }
 h1{
       padding: 50px;
       font-size: 30px;
       font-weight: 800;
       font-style: italic;
+      color: beige;
 }
 img{
     align-items: center;
@@ -41,7 +44,34 @@ button{
       margin: 70px;
       padding: 20px 10px 20px 10px;
       padding: 10px;
-      background-color: cadetblue;
-      color: blueviolet;
+      background-color: rgb(223, 81, 211);
+      color: rgb(101, 19, 178);
+      font-size: 2rem;
+      justify-content: center;
+
+}
+
+button:hover{
+      margin: 70px;
+      padding: 20px 10px 20px 10px;
+      padding: 10px;
+      background-color: rgb(76, 72, 189);
+      color: rgb(82, 42, 156);
+      font-size: 2rem;
+}
+
+
+#error-message{
+      
+      position: relative;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color:transparent;
+      color: rgb(7, 247, 255);
+      text-align: center;
+      padding: 10px;
+      font-size: xx-large;
+      font-weight: 400;
 
 }
